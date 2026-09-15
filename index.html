@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1e3a5f">
+  <meta name="description" content="Higher English Grammar - Verbals, Auxiliaries, Conditionals & Sequence of Tenses. Full rules with Bengali explanations + 100 Question Exam Mode.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <title>Higher English Grammar | Verbals & More</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo" onclick="showSection('home')">
+        <span class="logo-icon">📘</span>
+        <span class="logo-text">Higher English Grammar</span>
+      </div>
+      <nav class="nav" id="mainNav">
+        <a href="#" onclick="showSection('home'); return false;" class="nav-link active" data-section="home">Home</a>
+        <a href="#" onclick="showSection('verbals'); return false;" class="nav-link" data-section="verbals">Verbals</a>
+        <a href="#" onclick="showSection('infinitives'); return false;" class="nav-link" data-section="infinitives">Infinitives</a>
+        <a href="#" onclick="showSection('participles'); return false;" class="nav-link" data-section="participles">Participles</a>
+        <a href="#" onclick="showSection('gerunds'); return false;" class="nav-link" data-section="gerunds">Gerunds</a>
+        <a href="#" onclick="showSection('auxiliaries'); return false;" class="nav-link" data-section="auxiliaries">Auxiliaries</a>
+        <a href="#" onclick="showSection('conditionals'); return false;" class="nav-link" data-section="conditionals">Conditionals</a>
+        <a href="#" onclick="showSection('sequence'); return false;" class="nav-link" data-section="sequence">Sequence</a>
+        <a href="#" onclick="showSection('exam'); return false;" class="nav-link exam-link" data-section="exam">📝 Exam Mode</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- HOME -->
+    <section id="home" class="section active">
+      <div class="hero">
+        <div class="container">
+          <h1>CHAPTER XVI–XX</h1>
+          <h2>Verbals, Auxiliaries, Conditionals & Sequence of Tenses</h2>
+          <p class="hero-sub">Complete rules with Bengali explanations • Interactive examples • 100-Question Exam Mode</p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" onclick="showSection('verbals')">Start Learning</button>
+            <button class="btn btn-outline" onclick="showSection('exam')">Take Exam (100 Qs)</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="cards-grid">
+          <div class="card" onclick="showSection('infinitives')">
+            <div class="card-accent blue"></div>
+            <h3>Infinitives</h3>
+            <p>Simple & Gerundial Infinitives, omission of "to", Split Infinitive</p>
+            <span class="card-link">Learn →</span>
+          </div>
+          <div class="card" onclick="showSection('participles')">
+            <div class="card-accent orange"></div>
+            <h3>Participles</h3>
+            <p>Present & Past, Absolute construction, Unattached Participles</p>
+            <span class="card-link">Learn →</span>
+          </div>
+          <div class="card" onclick="showSection('gerunds')">
+            <div class="card-accent green"></div>
+            <h3>Gerunds</h3>
+            <p>Uses, Possessives, Gerundive & Fused Participles, Verbal Nouns</p>
+            <span class="card-link">Learn →</span>
+          </div>
+          <div class="card" onclick="showSection('auxiliaries')">
+            <div class="card-accent purple"></div>
+            <h3>Auxiliaries</h3>
+            <p>Be, Have, Do, Must, May, Can, Dare, Need, Ought, Shall/Will</p>
+            <span class="card-link">Learn →</span>
+          </div>
+          <div class="card" onclick="showSection('conditionals')">
+            <div class="card-accent teal"></div>
+            <h3>Conditionals</h3>
+            <p>Type I, II & III Conditional Sentences with full tense rules</p>
+            <span class="card-link">Learn →</span>
+          </div>
+          <div class="card" onclick="showSection('sequence')">
+            <div class="card-accent red"></div>
+            <h3>Sequence of Tenses</h3>
+            <p>Rules governing tense agreement between clauses</p>
+            <span class="card-link">Learn →</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VERBALS OVERVIEW -->
+    <section id="verbals" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>211. Verbals or Non-Finite Verbs</h2>
+          <p class="bn">ক্রিয়াপদের অসমাপিকা রূপ (Non-Finite Forms)</p>
+        </div>
+        <div class="rule-box">
+          <div class="rule-en">
+            <strong>Definition:</strong> Verbals include (1) Infinitives, (2) Gerunds, and (3) Participles.
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা ব্যাখ্যা:</strong> Verbals হলো ক্রিয়াপদের এমন রূপ যা ক্রিয়ার মতো কাজ করে কিন্তু tense বা person দেখায় না। এগুলো তিন প্রকার: (১) Infinitive, (২) Gerund, এবং (৩) Participle।
+          </div>
+        </div>
+        <div class="info-grid">
+          <div class="info-card">
+            <h4>1. Infinitives</h4>
+            <p>to + verb (expressed or understood)</p>
+            <p class="bn">ক্রিয়ার মূল রূপের আগে to যোগ করে গঠিত</p>
+          </div>
+          <div class="info-card">
+            <h4>2. Gerunds</h4>
+            <p>verb + -ing (used as Noun)</p>
+            <p class="bn">ক্রিয়ার সাথে -ing যোগ করে বিশেষ্য হিসেবে ব্যবহৃত</p>
+          </div>
+          <div class="info-card">
+            <h4>3. Participles</h4>
+            <p>Present (-ing) / Past (ed/en)</p>
+            <p class="bn">বিশেষণ ও ক্রিয়া উভয়ের গুণসম্পন্ন</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFINITIVES -->
+    <section id="infinitives" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>The Infinitive (Art. 212–217)</h2>
+          <p class="bn">অসমাপিকা ক্রিয়ার to-রূপ</p>
+        </div>
+
+        <div class="rule-box">
+          <h3>212. Formation</h3>
+          <div class="rule-en">The Infinitive is formed by adding <em>to</em>, expressed or understood, before the verb: <em>He came to play. Learn to read. I saw him (to) go.</em></div>
+          <div class="rule-bn"><strong>বাংলা:</strong> Infinitive গঠন করা হয় ক্রিয়ার আগে <em>to</em> যোগ করে (প্রকাশিত বা অনুক্ত)। উদাহরণ: He came <strong>to play</strong>। I saw him <strong>go</strong> (এখানে to অনুক্ত)।</div>
+        </div>
+
+        <div class="rule-box">
+          <h3>213. Omission of "to"</h3>
+          <div class="rule-en">
+            <strong>(a)</strong> After active voice of: please, see, let, make, know, feel, hear, bid, need, behold, watch, dare.<br>
+            Examples: Please (to) go there. He made me do it. I saw him go home.<br>
+            <em>But in passive (except let):</em> He was seen <strong>to</strong> come. I was made <strong>to</strong> sit down. But: He was let go.
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Active voice-এ please, see, let, make, hear ইত্যাদি ক্রিয়ার পরে to বাদ যায়। কিন্তু Passive-এ (let ছাড়া) to থাকে। উদাহরণ: He was seen <strong>to come</strong>।
+          </div>
+          <div class="rule-en">
+            <strong>(b)</strong> After auxiliaries: can, do, has, have, may, must, shall, should, will, would.<br>
+            <strong>(c)</strong> After had better / had rather / had sooner.<br>
+            <strong>(d)</strong> After than, except, as, better, and but (when preceded by do).
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> can, will, must ইত্যাদি auxiliary-এর পরে এবং had better, than, except, but (do-এর পরে) to বাদ যায়।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>214–216. Simple vs Gerundial Infinitive</h3>
+          <div class="two-col">
+            <div>
+              <h4>Simple / Noun Infinitive</h4>
+              <p class="bn">ইহা Noun-এর মত ব্যবহৃত হয়</p>
+              <ul>
+                <li>Subject: <em>To err is human.</em></li>
+                <li>Object: <em>He likes to swim.</em></li>
+                <li>Complement: <em>He seems to be rich.</em></li>
+                <li>Object of preposition: <em>about to die</em></li>
+                <li>Absolute: <em>To think that he would do so!</em></li>
+              </ul>
+            </div>
+            <div>
+              <h4>Gerundial Infinitive</h4>
+              <p class="bn">ইহা Adjective বা Adverb-এর মত qualify করে</p>
+              <ul>
+                <li>Purpose: <em>He came to see me.</em></li>
+                <li>With adjective: <em>I am sorry to hear this.</em></li>
+                <li>With noun: <em>a house to let</em></li>
+                <li>Parenthetical: <em>To tell you the truth...</em></li>
+              </ul>
+            </div>
+          </div>
+          <div class="rule-bn">
+            <strong>পার্থক্য করার উপায়:</strong> Infinitive-কে expand করুন। যদি noun clause হয় → Simple; যদি adjectival/adverbial clause হয় → Gerundial।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>217. Split Infinitive</h3>
+          <div class="rule-en">Avoid separating <em>to</em> from the verb: ❌ <em>to kindly help</em> → ✅ <em>to help me kindly</em>. Occasionally acceptable for clarity: <em>to better train rural constables</em>.</div>
+          <div class="rule-bn"><strong>বাংলা:</strong> to এবং verb-এর মাঝে অন্য শব্দ বসানো ঠিক নয় (Split Infinitive)। তবে কখনো কখনো অর্থ স্পষ্ট করার জন্য ব্যবহার করা হয়।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTICIPLES -->
+    <section id="participles" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Participles (Art. 218–221)</h2>
+          <p class="bn">ক্রিয়া-বিশেষণ (Adjective + Verb)</p>
+        </div>
+
+        <div class="rule-box">
+          <h3>218–219. Types & Uses</h3>
+          <div class="rule-en">
+            <strong>Present Participle (-ing):</strong> action going on → <em>a charming scenery, rolling stone</em><br>
+            <strong>Past Participle (ed/en/t):</strong> action completed → <em>learned man, lost health, broken chair</em>
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Present Participle চলমান কাজ বোঝায় (active)। Past Participle সম্পন্ন কাজ বোঝায় এবং সাধারণত passive অর্থ বহন করে।
+          </div>
+          <h4>Three Uses:</h4>
+          <ol>
+            <li><strong>Attributive:</strong> This is a charming scenery.</li>
+            <li><strong>Predicative:</strong> The scenery looks charming. We saw him running away.</li>
+            <li><strong>Absolute (Nominative Absolute):</strong> God willing, we shall do it. This done, they left.</li>
+          </ol>
+        </div>
+
+        <div class="rule-box warning">
+          <h3>220. Unattached (Dangling) Participle</h3>
+          <div class="rule-en">
+            The participle must clearly refer to a noun/pronoun.<br>
+            ❌ Standing on the shore, my eye roams over the sea.<br>
+            ✅ While I am standing on the shore, my eye...
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Participle অবশ্যই কোনো noun/pronoun-কে qualify করবে। যোগসূত্র ছাড়া ব্যবহার ভুল। Exceptions: absolute constructions এবং preposition হয়ে যাওয়া participles (regarding, considering ইত্যাদি)।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>221. Active vs Passive Meaning</h3>
+          <div class="rule-en">
+            Present Participle = active: <em>a burning house</em> (house that is burning)<br>
+            Past Participle = passive: <em>a burnt house</em> (house that has been burnt)<br>
+            Past can also show habit/character: <em>a well-read man, a plain-spoken man</em>
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Present active অর্থ দেয়, Past সাধারণত passive। কখনো কখনো অভ্যাস বা চরিত্র বোঝায়।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GERUNDS -->
+    <section id="gerunds" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Gerunds & Verbal Nouns (Art. 222–228)</h2>
+          <p class="bn">ক্রিয়ামূলক বিশেষ্য (-ing form used as Noun)</p>
+        </div>
+
+        <div class="rule-box">
+          <h3>222. Uses of Gerund</h3>
+          <ul>
+            <li>Subject: <em>Walking is a good exercise.</em></li>
+            <li>Object: <em>I learn drawing. Stop playing.</em></li>
+            <li>Object of preposition: <em>fond of riding</em></li>
+            <li>Complement: <em>It is a capital saying.</em></li>
+            <li>Compound noun: <em>sleeping room, drinking water, walking stick</em></li>
+          </ul>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Gerund হলো -ing যুক্ত ক্রিয়া যা বিশেষ্যের মতো ব্যবহৃত হয়। এটি subject, object, complement হতে পারে এবং transitive হলে object নিতে পারে।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>223. Gerund with Possessives</h3>
+          <div class="rule-en">
+            Prefer possessive: <em>I like <strong>your</strong> doing this. He insisted on <strong>my</strong> going there.</em><br>
+            Exceptions: lifeless things, plurals in -s, passive constructions → use participle form.
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Gerund-এর আগে possessive case ব্যবহার করা উচিত (my, your, father's)। কিন্তু জড়বস্তু, -s যুক্ত plural, বা passive-এর ক্ষেত্রে participle ব্যবহার হয়।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>224–225. Gerundive & Fused Participles</h3>
+          <div class="rule-en">
+            <strong>Gerundive:</strong> I depend on the wall <em>being built</em> at once. (= on the building of the wall)<br>
+            <strong>Fused (Incorrect):</strong> Women having the vote reduces men's power. → <strong>Women's having...</strong>
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Fused Participle ভুল। সঠিকভাবে possessive + gerund ব্যবহার করুন।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>226–227. Verbal Noun vs Gerund vs Participle</h3>
+          <table class="styled-table">
+            <thead>
+              <tr><th>Type</th><th>Nature</th><th>Example</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Present Participle</td><td>Verb + Adjective</td><td>I found him <em>reading</em> a book.</td></tr>
+              <tr><td>Gerund</td><td>Verb + Noun</td><td>His <em>reading</em> is bad. / fond of <em>playing</em></td></tr>
+              <tr><td>Verbal Noun</td><td>Pure Noun (the + of)</td><td>the <em>writing of</em> a letter</td></tr>
+            </tbody>
+          </table>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Verbal Noun-এ আগে the এবং পরে of থাকে। এটি সম্পূর্ণ বিশেষ্য।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>228. Idiomatic Use (Gerund preferred)</h3>
+          <p>Abstain from <em>speaking</em>, addicted to <em>gambling</em>, capable of <em>doing</em>, insist on <em>your doing</em>, prevent from <em>going</em>, etc.</p>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> কিছু ক্ষেত্রে ইংরেজি idiom অনুসারে Gerund ব্যবহার বাধ্যতামূলক (Infinitive নয়)। Prevention verbs সাধারণত from + gerund নেয়।
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUXILIARIES -->
+    <section id="auxiliaries" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Auxiliary, Defective & Anomalous Verbs (Ch. XVII)</h2>
+          <p class="bn">সহায়ক, ত্রুটিপূর্ণ ও অনিয়মিত ক্রিয়া</p>
+        </div>
+
+        <div class="rule-box">
+          <h3>229–232. Be, Have, Do</h3>
+          <div class="rule-en">
+            <strong>Be:</strong> Passive, Continuous, expectation (am to go), existence (God is).<br>
+            <strong>Have:</strong> Perfect tenses, possession, obligation (have to), causation (have it done).<br>
+            <strong>Do:</strong> Emphasis, negatives, questions; also principal verb (perform) and pro-verb.
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Be passive ও continuous গঠনে ব্যবহৃত। Have perfect tense ও বাধ্যবাধকতা (have to) বোঝায়। Do জোর, নেতিবাচক ও প্রশ্নে ব্যবহৃত হয়।
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>233–238. Must, May, Can, Dare, Need, Ought</h3>
+          <ul>
+            <li><strong>Must:</strong> compulsion, determination, certainty, duty. Past certainty: must have + PP.</li>
+            <li><strong>May / Might:</strong> permission, possibility, wish, purpose. Might = greater doubt / polite request.</li>
+            <li><strong>Can / Could:</strong> ability, permission. Could = polite / inclination.</li>
+            <li><strong>Dare:</strong> challenge (with to) vs venture (often without to in neg/interrog).</li>
+            <li><strong>Need:</strong> "want" (full conjugation) vs "necessity" (need not + bare infinitive).</li>
+            <li><strong>Ought:</strong> duty/obligation + to. Past: ought to have + PP.</li>
+          </ul>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> Must বাধ্যবাধকতা/নিশ্চয়তা। May অনুমতি/সম্ভাবনা। Can সামর্থ্য। Dare ও Need-এর ব্যবহারভেদ গুরুত্বপূর্ণ। Ought + to দিয়ে কর্তব্য বোঝায়।
+          </div>
+        </div>
+
+        <div class="rule-box important">
+          <h3>239–245. Shall & Will / Should & Would</h3>
+          <table class="styled-table">
+            <thead>
+              <tr><th>Person</th><th>Simple Future</th><th>Determination / Command / Promise</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1st (I/We)</td><td>shall</td><td>will</td></tr>
+              <tr><td>2nd & 3rd</td><td>will</td><td>shall</td></tr>
+            </tbody>
+          </table>
+          <div class="rule-en">
+            Memory verse: <em>Shall in the First person simply foretells; In Will a threat or a promise dwells; Shall in the Second and Third does threat, Will then simply foretells a future feat.</em>
+          </div>
+          <div class="rule-bn">
+            <strong>বাংলা:</strong> সাধারণ ভবিষ্যৎ: I/We shall, You/He will। বক্তার দৃঢ়সংকল্প/আদেশ/প্রতিশ্রুতি: I/We will, You/He shall। Interrogative-এ ভিন্ন নিয়ম প্রযোজ্য।
+          </div>
+          <p><strong>Should:</strong> duty, condition, modesty (I should like).<br>
+          <strong>Would:</strong> past habit/determination, wish, polite request. Never for regular continuous past action.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONDITIONALS -->
+    <section id="conditionals" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Tenses in Conditional Sentences (Ch. XX)</h2>
+          <p class="bn">শর্তমূলক বাক্যের কাল</p>
+        </div>
+
+        <div class="cond-cards">
+          <div class="cond-card type1">
+            <h3>Type I — Real / Possible</h3>
+            <div class="formula">If + Present → will / shall + base</div>
+            <p><em>If it rains, I shall not go.</em></p>
+            <p><em>If he runs, he'll reach there in time.</em></p>
+            <div class="rule-bn">বর্তমান বা ভবিষ্যতের সম্ভাব্য শর্ত। If-clause-এ Present, main-এ Future।</div>
+          </div>
+          <div class="cond-card type2">
+            <h3>Type II — Unreal Present / Future</h3>
+            <div class="formula">If + Past (subjunctive) → would / should + base</div>
+            <p><em>If I had money, I would lend you some.</em></p>
+            <p><em>If I were you, I should accept the offer.</em></p>
+            <div class="rule-bn">বর্তমান বা ভবিষ্যতের অসম্ভাব্য/কাল্পনিক শর্ত। Past tense আসলে subjunctive।</div>
+          </div>
+          <div class="cond-card type3">
+            <h3>Type III — Unreal Past</h3>
+            <div class="formula">If + Past Perfect → would have + Past Participle</div>
+            <p><em>If I had tried sincerely, I would have got the post.</em></p>
+            <p><em>Had we met him, we could have told him.</em></p>
+            <div class="rule-bn">অতীতের অসম্পূর্ণ শর্ত (যা ঘটেনি)। If বাদ দিয়ে Had দিয়ে শুরু করা যায়।</div>
+          </div>
+        </div>
+
+        <div class="rule-box">
+          <h3>Variations</h3>
+          <ul>
+            <li>Type I present reference: both clauses Present (<em>If you heat ice, it turns into water.</em>)</li>
+            <li>Imperative in main clause: <em>If you meet him, ask him to ring me up.</em></li>
+            <li>Polite: both future possible (<em>If you will wait...</em>)</li>
+            <li>Type II/III: might / could / should have also used.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEQUENCE OF TENSES -->
+    <section id="sequence" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>The Sequence of Tenses (Ch. XIX)</h2>
+          <p class="bn">কালের অনুক্রম</p>
+        </div>
+
+        <div class="rule-box">
+          <h3>Rule I</h3>
+          <div class="rule-en">If the Principal clause verb is <strong>Present or Future</strong>, the Dependent clause may be in <strong>any tense</strong>.</div>
+          <div class="rule-bn"><strong>বাংলা:</strong> Principal clause Present বা Future হলে Dependent clause যেকোনো tense-এ হতে পারে।</div>
+        </div>
+
+        <div class="rule-box">
+          <h3>Rule II</h3>
+          <div class="rule-en">If the Principal clause verb is <strong>Past</strong>, the Dependent clause should be in the <strong>corresponding Past</strong>.<br>
+          Exception: Universal truth or habitual fact remains Present.<br>
+          <em>He did not know that the earth <strong>moves</strong> round the sun.</em></div>
+          <div class="rule-bn"><strong>বাংলা:</strong> Principal Past হলে Dependent-ও corresponding Past হয়। কিন্তু চিরন্তন সত্য বা অভ্যাসগত সত্য Present-এই থাকে।</div>
+        </div>
+
+        <div class="rule-box">
+          <h3>Rule III</h3>
+          <div class="rule-en">When the Dependent clause denotes comparison or works as an adjective, any tense may follow any tense.</div>
+          <div class="rule-bn"><strong>বাংলা:</strong> তুলনামূলক বা বিশেষণসুলভ Dependent clause-এ যেকোনো tense ব্যবহার করা যায়।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXAM MODE -->
+    <section id="exam" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>📝 Exam Mode — 100 Questions</h2>
+          <p class="bn">উত্তর দেখতে প্রশ্নের উপর ক্লিক করুন / Click a question to reveal the answer</p>
+        </div>
+
+        <div class="exam-controls">
+          <div class="score-box">
+            <span>Answered: <strong id="answeredCount">0</strong>/100</span>
+            <span>Score: <strong id="scoreCount">0</strong></span>
+          </div>
+          <div class="exam-buttons">
+            <button class="btn btn-outline" onclick="resetExam()">Reset All</button>
+            <button class="btn btn-primary" onclick="showAllAnswers()">Show All Answers</button>
+            <button class="btn btn-secondary" onclick="hideAllAnswers()">Hide All</button>
+          </div>
+        </div>
+
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All (100)</button>
+          <button class="filter-btn" data-filter="infinitive">Infinitives</button>
+          <button class="filter-btn" data-filter="participle">Participles</button>
+          <button class="filter-btn" data-filter="gerund">Gerunds</button>
+          <button class="filter-btn" data-filter="auxiliary">Auxiliaries</button>
+          <button class="filter-btn" data-filter="conditional">Conditionals</button>
+          <button class="filter-btn" data-filter="sequence">Sequence</button>
+        </div>
+
+        <div id="questionsContainer" class="questions-container">
+          <!-- Questions injected by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>A Text-Book of Higher English Grammar • Educational PWA Resource</p>
+      <p class="footer-note">Based on Chapters XVI–XX • Rules with Bengali explanations • Offline capable</p>
+    </div>
+  </footer>
+
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
